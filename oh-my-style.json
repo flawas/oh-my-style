@@ -10,7 +10,11 @@
     "muted": "#4C566A",
     "accent": "#88C0D0",
     "warn": "#EBCB8B",
-    "danger": "#BF616A"
+    "danger": "#BF616A",
+    "parameter": "#81A1C1",
+    "string": "#A3BE8C",
+    "number": "#B48EAD",
+    "variable": "#8FBCBB"
   },
   "blocks": [
     {

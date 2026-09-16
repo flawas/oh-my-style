@@ -56,7 +56,9 @@ Ein minimalistisches [Oh My Posh](https://ohmyposh.dev/) Theme im [Nord](https:/
    oh-my-posh init pwsh --config /pfad/zu/oh-my-style.json | Invoke-Expression
    ```
 
-   Alternativ das mitgelieferte [`profile.ps1`](./profile.ps1) verwenden: Inhalt in dein `$PROFILE` kopieren oder per `. /pfad/zu/oh-my-style/profile.ps1` einbinden. Es installiert Oh My Posh bei Bedarf automatisch (via `winget`) und lädt anschließend das Theme relativ zum Skriptpfad.
+   Alternativ das mitgelieferte [`profile.ps1`](./profile.ps1) verwenden: Inhalt in dein `$PROFILE` kopieren oder per `. /pfad/zu/oh-my-style/profile.ps1` einbinden. Es installiert Oh My Posh bei Bedarf automatisch (via `winget`) und lädt anschließend das Theme relativ zum Skriptpfad. Zusätzlich werden die PSReadLine-Syntax-Highlighting-Farben ans Nord-Schema angepasst.
+
+   Für Zsh gibt es analog [`profile.zsh`](./profile.zsh): Inhalt in deine `~/.zshrc` kopieren oder per `source /pfad/zu/oh-my-style/profile.zsh` einbinden. Es installiert Oh My Posh und `zsh-syntax-highlighting` bei Bedarf automatisch (via `brew`) und passt die Highlighting-Farben (Befehle, Pfade, Strings, Optionen) ans Nord-Schema an.
 
 3. Terminal neu starten (oder Profil neu laden) und ein [Nerd Font](https://www.nerdfonts.com/) aktivieren, damit Icons und Symbole korrekt angezeigt werden.
 
